@@ -22,8 +22,8 @@ Sally Sally::operator+(Sally aso) { //***"b" was treated as the parameter of ano
 	//So it's returns value is "c" is brandNew.num --> num which = a + aso.num which = b.
 }
 //aso= another sally object
-//Will have two sally objects one that has a number sally object of 20 and another that has a value of 50. So the
-//brand new sally object will have a number of 50.
+//Will have two sally objects one that has a number sally object of 34 and another that has a value of 21. So the
+//brand new sally object will have a number of 55.
 
 
 
@@ -41,3 +41,4 @@ Sally Sally::operator+(Sally aso) { //***"b" was treated as the parameter of ano
 //For example maybe you have a class and you want to add to objects together:
 
 //Use operator overloading to specify what you want operators to do. Made new class called sally to include sally header file.
+
