@@ -6,7 +6,7 @@ Sally::Sally()
 {}
 
 
-Sally::Sally(int a) { //This is linked to sally.cpp. This is sally object that passes an integer  
+Sally::Sally(int a) { //This is linked to sally.h. This is sally object that passes an integer  
 	num = a;//and pass in the property of "num"
 }
 
@@ -39,4 +39,5 @@ Sally Sally::operator+(Sally aso) { //***"b" was treated as the parameter of ano
 
 //Operator overloading.  Allows you to use C++ operators like +,-,*, ect. and change the way that they're used.
 //For example maybe you have a class and you want to add to objects together:
+
 //Use operator overloading to specify what you want operators to do. Made new class called sally to include sally header file.
